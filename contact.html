@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Contact</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">Debjit Chatterjee</a>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="achievements.html">Achievements</a></li>
+    <li><a href="professional_activities.html">Professional Services</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="page">
+
+  <div class="page-banner">
+    <h1>Contact</h1>
+  </div>
+
+  <section class="content-section">
+    <div class="container">
+
+      <div class="contact-grid">
+
+        <a href="mailto:debjit80659@gmail.com" class="contact-item" id="contact-email-personal">
+          <div class="contact-icon">✉️</div>
+          <div>
+            <div class="contact-label">Personal Email</div>
+            <div class="contact-value">debjit80659@gmail.com</div>
+          </div>
+        </a>
+
+        <a href="mailto:debjit.chatterjee.24@kgpian.iitkgp.ac.in" class="contact-item" id="contact-email-institute">
+          <div class="contact-icon">🎓</div>
+          <div>
+            <div class="contact-label">Institute Email</div>
+            <div class="contact-value">debjit.chatterjee.24@kgpian.iitkgp.ac.in</div>
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/debjit-chatterjee-5683bb1a3/" target="_blank" class="contact-item" id="contact-linkedin">
+          <div class="contact-icon">🔗</div>
+          <div>
+            <div class="contact-label">LinkedIn</div>
+            <div class="contact-value">linkedin.com/in/debjit-chatterjee</div>
+          </div>
+        </a>
+      </div>
+
+      <hr class="green-divider-thin" style="margin:2rem 0;"/>
+
+      <div class="contact-form-section">
+        <h2>Send a Message</h2>
+        <form class="contact-form" id="contact-form" action="mailto:debjit80659@gmail.com" method="post" enctype="text/plain">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required/>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required/>
+          </div>
+          <div class="form-group full-width">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Research collaboration, inquiry, etc."/>
+          </div>
+          <div class="form-group full-width">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+          </div>
+          <div class="form-group full-width">
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
